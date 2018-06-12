@@ -1,0 +1,116 @@
+\hypertarget{main_8cpp}{}\section{src/main.cpp File Reference}
+\label{main_8cpp}\index{src/main.\+cpp@{src/main.\+cpp}}
+
+
+Main file.  
+
+
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$cstdlib$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$random$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$limits$>$}\\*
+Include dependency graph for main.\+cpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{main_8cpp_a1ff022344debd4323f3df7b0dabc088a}{usage} (const char $\ast$program\+Name)
+\begin{DoxyCompactList}\small\item\em Program usage. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{main_8cpp_a247ffff68e88598c7c49d4d4bca59b71}{generate\+\_\+password} (const std\+::string M\+O\+D\+EL, const int length)
+\begin{DoxyCompactList}\small\item\em Generate a password based on a model with a given size. \end{DoxyCompactList}\item 
+void \hyperlink{main_8cpp_a827515391da134621cee09e063812ba0}{show\+\_\+passwords} (const std\+::vector$<$ std\+::string $>$ list)
+\begin{DoxyCompactList}\small\item\em Show the list of passwords. \end{DoxyCompactList}\item 
+int {\bfseries main} (int argc, char $\ast$$\ast$argv)\hypertarget{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{}\label{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Main file. 
+
+
+
+\subsection{Function Documentation}
+\index{main.\+cpp@{main.\+cpp}!generate\+\_\+password@{generate\+\_\+password}}
+\index{generate\+\_\+password@{generate\+\_\+password}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{generate\+\_\+password(const std\+::string M\+O\+D\+E\+L, const int length)}{generate_password(const std::string MODEL, const int length)}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string generate\+\_\+password (
+\begin{DoxyParamCaption}
+\item[{const std\+::string}]{M\+O\+D\+EL, }
+\item[{const int}]{length}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a247ffff68e88598c7c49d4d4bca59b71}{}\label{main_8cpp_a247ffff68e88598c7c49d4d4bca59b71}
+
+
+Generate a password based on a model with a given size. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em M\+O\+D\+EL} & The list of usable characters. \\
+\hline
+\mbox{\tt in}  & {\em length} & The size of the password.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The generated password.
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Thibaut P\+O\+N\+C\+H\+ON 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2018 June 12 
+\end{DoxyDate}
+\index{main.\+cpp@{main.\+cpp}!show\+\_\+passwords@{show\+\_\+passwords}}
+\index{show\+\_\+passwords@{show\+\_\+passwords}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{show\+\_\+passwords(const std\+::vector$<$ std\+::string $>$ list)}{show_passwords(const std::vector< std::string > list)}}]{\setlength{\rightskip}{0pt plus 5cm}void show\+\_\+passwords (
+\begin{DoxyParamCaption}
+\item[{const std\+::vector$<$ std\+::string $>$}]{list}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a827515391da134621cee09e063812ba0}{}\label{main_8cpp_a827515391da134621cee09e063812ba0}
+
+
+Show the list of passwords. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em list} & The list of passwords.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Author}
+Thibaut P\+O\+N\+C\+H\+ON 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2018 June 12 
+\end{DoxyDate}
+\index{main.\+cpp@{main.\+cpp}!usage@{usage}}
+\index{usage@{usage}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{usage(const char $\ast$program\+Name)}{usage(const char *programName)}}]{\setlength{\rightskip}{0pt plus 5cm}void usage (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{program\+Name}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a1ff022344debd4323f3df7b0dabc088a}{}\label{main_8cpp_a1ff022344debd4323f3df7b0dabc088a}
+
+
+Program usage. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em program\+Name} & Name of the program.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Author}
+Thibaut P\+O\+N\+C\+H\+ON 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2018 June 12 
+\end{DoxyDate}
