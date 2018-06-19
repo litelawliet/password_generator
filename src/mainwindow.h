@@ -2,8 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QDebug>
 #include <QStringListModel>
+#include <QStringList>
 #include <vector>
 #include <string>
 #include <random>
@@ -27,7 +27,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    QStringListModel model;
+    QStringListModel *model;
 
     const std::string CHARACTERS_MODEL = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,?;.:/!*=}+])_|-[({#&";
 

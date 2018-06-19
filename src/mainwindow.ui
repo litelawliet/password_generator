@@ -46,10 +46,17 @@
        <property name="maximum">
         <number>999</number>
        </property>
+       <property name="value">
+        <number>1</number>
+       </property>
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QSpinBox" name="spinBox_lengthPassword"/>
+      <widget class="QSpinBox" name="spinBox_lengthPassword">
+       <property name="value">
+        <number>8</number>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
@@ -74,6 +81,15 @@
       <width>411</width>
       <height>192</height>
      </rect>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+    <property name="uniformItemSizes">
+     <bool>true</bool>
+    </property>
+    <property name="selectionRectVisible">
+     <bool>false</bool>
     </property>
    </widget>
   </widget>
