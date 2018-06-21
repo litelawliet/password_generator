@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['usage',['usage',['../main_8cpp.html#a1ff022344debd4323f3df7b0dabc088a',1,'main.cpp']]]
+  ['preparemodel',['prepareModel',['../class_main_window.html#a80a094dd22dd7502c527f8c05e8f9093',1,'MainWindow']]]
 ];

@@ -50,7 +50,7 @@ std::string MainWindow::generate_password(const std::string MODEL, const int len
 }
 
 /**
- * @brief Generate a list of password into the model.
+ * @brief MainWindow::generateListOfPasswords Generate a list of password into the model.
  *
  * @author Thibaut PONCHON
  * @version 1.0
@@ -77,7 +77,7 @@ void MainWindow::generateListOfPasswords() {
 }
 
 /**
- * @brief Reset all the UI to the default settings.
+ * @brief MainWindow::resetUI Reset all the UI to the default settings.
  *
  * @author Thibaut PONCHON
  * @version 1.3
