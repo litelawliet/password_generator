@@ -20,16 +20,23 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     std::string generate_password(const std::string MODEL, const int length);
     void showListPasswords(const std::vector<std::string> listPasswords);
+    void prepareModel();
     ~MainWindow();
 
 private slots:
     void generateListOfPasswords();
+    void resetUI();
 
 private:
     Ui::MainWindow *ui;
     QStringListModel *model;
 
-    const std::string CHARACTERS_MODEL = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,?;.:/!*=}+])_|-[({#&";
+    const std::string SPECIALS_MODEL = "~!@#$%^&*()-_=+[]{};:,.<>/?";
+    const std::string NUMBER_MODEL = "0123456789";
+    const std::string LOWERCASE_MODEL = "abcdefghijklmnopqrstuvwxyz";
+    const std::string UPPERCASE_MODEL = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    std::string characters_model;
 
     std::vector<std::string> listOfPassword;
     int nbPassword;
