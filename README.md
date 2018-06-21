@@ -9,4 +9,4 @@ HOW TO USE IT :
  Soon, an executable for windows will be deployed !
  
  SPECS : 
- Developped with Qt5 on Linux, it should work as well on Windows platform.
+    Developped with Qt5 on Linux, it should work as well on Windows platform.
