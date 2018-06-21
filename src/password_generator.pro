@@ -37,3 +37,6 @@ DISTFILES += \
     icons/password_16px.ico \
     icons/password_32px.ico \
     icons/password_64px.ico
+
+RESOURCES += \
+    rsc.qrc
