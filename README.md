@@ -1,11 +1,11 @@
 # password_generator
-This program generates a number of passwords with a certain size
+This program generates a number of passwords with a certain size and specifications.
 
 HOW TO USE IT :
-  1. Run the program in the "bin" directoy or build your own using this pattern : program_name <number_of_passwords> <size_of_a_password>;
-  2. Answer the 2 configuration questions (1:number of password, 2: size of a paswword);
-  3. Choose your password.
-  
-  You can also give 2 arguments when running the program to by-pass the 2 configuration questions, 
-  or give 1 arguments to fill the number of passwords.
+    1. Run the program in the "bin" directory if you are a linux user (x64 platform) or build your own for windows and others platforms;
+    2. Set all the parameters in the program at your convenience ;
+    3. Click on the generate button and select the one you want.
  
+ Soon, an executable for windows will be deployed !
+ 
+ SPECS : Developped with Qt5 on Linux, it should work as well on Windows platform.
