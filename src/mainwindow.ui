@@ -42,8 +42,8 @@
    <widget class="QWidget" name="gridLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>10</y>
+      <x>440</x>
+      <y>0</y>
       <width>201</width>
       <height>80</height>
      </rect>
@@ -136,7 +136,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Numbers included</string>
+     <string>Numbers</string>
     </property>
     <property name="checked">
      <bool>true</bool>
@@ -152,7 +152,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Uppercase included</string>
+     <string>Uppercase</string>
     </property>
     <property name="checked">
      <bool>true</bool>
@@ -168,7 +168,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Lowercase included</string>
+     <string>Lowercase</string>
     </property>
     <property name="checked">
      <bool>true</bool>
@@ -184,7 +184,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Specials character included</string>
+     <string>Special characters</string>
     </property>
    </widget>
    <widget class="QGroupBox" name="groupBox">
