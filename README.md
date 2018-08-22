@@ -7,7 +7,5 @@ HOW TO USE IT :
     2. Set all the parameters in the program at your convenience ;
     3. Click on the generate button and select the one you want.
  
- Soon, an executable for windows will be deployed !
- 
  SPECS : 
     Developped with Qt5 on Linux, it should work as well on Windows platform.
